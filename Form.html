@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form Assignment By: K18SW06</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="firstname"> First Name</label>
+        <div>
+            <input type="text" name="firstName" id="firstname">
+        </div>
+        <label for="lastname">Last Name</label>
+        <div>
+            <input type="text" name="lastName" id="lastname">
+        </div>
+        <br>
+         <label for="Email"> Email</label>
+        <div>
+            <input type="email" name="myEmail" placeholder="jan@gmail.com">
+        </div>
+        <br>
+         <label for="number"> Mobile</label>
+        <div>
+            <input type="number" name="myNumber" placeholder="0300 1230303">
+        </div>
+
+        <br>
+         <label for="Date"> Date Of Birth</label>
+        <div>
+         <input type="date" name="dob">
+        </div>
+        <br>
+         <label for="Age"> Age </label>
+        <div>
+           <input type="number" name="age">
+        </div>
+         <label for="Gender">Gender:</label>
+        <div>
+            Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+         <br>
+
+            <div>
+            <label for="Departement">Departement</label>
+            <select name="myDepartement" id="mydepartement">
+                <option value="ce" selected>Civil</option>
+                <option value="el" selected>Electrical</option>
+                <option value="me" selected>Mechanical</option>
+                <option value="sw">Software</option>
+                <option value="pg" selected>Petroleum</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write something about your working experience: <br><textarea name="myText" cols="50" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
